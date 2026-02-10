@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background: #f7f3ee;       
+    color: #2a2a2a;             
+    line-height: 1.7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 50px;
+    background: #1f2a24;        
+}
+
+.logo {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.6rem;
+    color: #f4efe9;
+}
+
+.logo i {
+    margin-right: 6px;
+    color: #c8a97e;             
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #c8a97e;             
+}
+
+.hero {
+    min-height: 90vh;
+    background: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-box {
+    margin-left: 70px;
+    max-width: 480px;
+    background: rgba(247, 243, 238, 0.95); 
+    padding: 45px;
+}
+
+.hero h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.cta {
+    display: inline-block;
+    padding: 12px 26px;
+    background: #1f2a24;        
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.story {
+    padding: 80px 50px;
+    max-width: 750px;
+}
+
+.story h2 {
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 18px;
+}
+
+.menu {
+    padding: 80px 50px;
+    background: #ede7df;        
+}
+
+.menu h2 {
+    font-family: "DM Serif Display", serif;
+}
+
+.menu-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.drink {
+    background: #ffffff;
+    padding: 30px;
+    width: 260px;
+    border-radius: 4px;
+}
+
+.drink i {
+    font-size: 1.4rem;
+    color: #c8a97e;             
+    margin-bottom: 10px;
+}
+
+.drink h3 {
+    margin-bottom: 8px;
+}
+
+.drink p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.space {
+    padding: 70px 50px;
+}
+
+.space i {
+    color: #c8a97e;             
+    margin-right: 6px;
+}
+
+.footer {
+    background: #1f2a24;        
+    color: #ccc;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.85rem;
+}
